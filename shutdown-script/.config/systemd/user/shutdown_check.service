@@ -3,4 +3,4 @@ Description=Check if locked for 1 hour and shut down
 
 [Service]
 Type=oneshot
-ExecStart=../../../scripts/shutdown_after_lock.sh
+ExecStart=%h/scripts/shutdown_after_lock.sh
