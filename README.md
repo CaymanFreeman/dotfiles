@@ -7,7 +7,7 @@ Both [Git](https://git-scm.com/) and [GNU Stow](https://www.gnu.org/software/sto
 ## Setup
 ```bash
 git clone https://github.com/CaymanFreeman/dotfiles.git ~/dotfiles
-&& cd ~/dotfiles
+cd ~/dotfiles
 ```
 
 ## Stow
@@ -22,6 +22,7 @@ stow neofetch
 You can enable and start the shutdown script with the following:
 ```bash
 systemctl --user daemon-reexec
-&& systemctl --user start shutdown_check.timer
-&& systemctl --user enable shutdown_check.timer
+systemctl --user start shutdown_check.timer
+systemctl --user enable shutdown_check.timer
 ```
+
