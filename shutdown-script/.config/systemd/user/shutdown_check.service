@@ -1,6 +1,0 @@
-[Unit]
-Description=Check if locked for 1 hour and shut down
-
-[Service]
-Type=oneshot
-ExecStart=%h/scripts/shutdown_after_lock.sh

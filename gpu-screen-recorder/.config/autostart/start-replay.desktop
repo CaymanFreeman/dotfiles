@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Start Replay
+Exec=sh -c "\$HOME/scripts/start-replay.sh"
+Hidden=false
+Terminal=false
+Type=Application
+Icon=com.dec05eba.gpu_screen_recorder
+Comment=Runs the start-replay script at login
+Categories=AudioVideo;

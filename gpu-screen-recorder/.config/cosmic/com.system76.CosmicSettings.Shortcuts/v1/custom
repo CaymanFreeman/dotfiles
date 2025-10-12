@@ -1,0 +1,25 @@
+{
+    (
+        modifiers: [
+            Ctrl,
+        ],
+        key: "F10",
+        description: Some("Save Replay"),
+    ): Spawn("$HOME/scripts/save-replay.sh"),
+    (
+        modifiers: [
+            Ctrl,
+            Shift,
+        ],
+        key: "F12",
+        description: Some("Stop Replay"),
+    ): Spawn("$HOME/scripts/stop-replay.sh"),
+    (
+        modifiers: [
+            Ctrl,
+            Shift,
+        ],
+        key: "F11",
+        description: Some("Start Replay"),
+    ): Spawn("$HOME/scripts/start-replay.sh"),
+}

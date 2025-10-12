@@ -18,11 +18,10 @@ Example of using my neofetch config:
 stow neofetch
 ```
 
-## Extra Info
-You can enable and start the shutdown script with the following:
+## Scripts
+Make the gpu-screen-recorder scripts executable:
 ```bash
-systemctl --user daemon-reexec
-systemctl --user start shutdown_check.timer
-systemctl --user enable shutdown_check.timer
+chmod +x ~/scripts/start-replay.sh
+chmod +x ~/scripts/stop-replay.sh
+chmod +x ~/scripts/save-replay.sh
 ```
-

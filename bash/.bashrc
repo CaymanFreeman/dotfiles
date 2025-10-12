@@ -116,4 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Make neofetch execute afer executing clear
+clear() {
+    command clear
+    neofetch
+}
+
+# Execute neofetch afer opening a terminal
 neofetch
