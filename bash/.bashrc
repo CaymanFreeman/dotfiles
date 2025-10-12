@@ -116,6 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Add alias for COSMIC Text Editor and send logs to null
+edit() {
+    cosmic-edit "$@" > /dev/null 2>&1
+}
+
 # Make neofetch execute afer executing clear
 clear() {
     command clear
