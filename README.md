@@ -1,5 +1,5 @@
 # dotfiles
-A collection of my [dotfiles](https://en.wiktionary.org/wiki/dotfile) for various apps and programs.
+A collection of my [dotfiles](https://en.wiktionary.org/wiki/dotfile), settings, configs, etc. for various apps and programs.
 
 ## Setup Prequisites
 Both [Git](https://git-scm.com/) and [GNU Stow](https://www.gnu.org/software/stow/) are required to easily implement them.
@@ -27,7 +27,7 @@ chmod +x ~/scripts/save-replay.sh
 ```
 
 ## Equibop
-Equibop will not read settings from a symlink. They must be copied instead:
+Equibop will not read settings from a symlink. The file(s) must be copied instead:
 ```bash
 cp ~/dotfiles/equibop/.var/app/io.github.equicord.equibop/config/equibop/settings/settings.json ~/.var/app/io.github.equicord.equibop/config/equibop/settings
 ```
