@@ -25,3 +25,9 @@ chmod +x ~/scripts/start-replay.sh
 chmod +x ~/scripts/stop-replay.sh
 chmod +x ~/scripts/save-replay.sh
 ```
+
+## Equibop
+Equibop will not read settings from a symlink. They must be copied instead:
+```bash
+cp ~/dotfiles/equibop/.var/app/io.github.equicord.equibop/config/equibop/settings/settings.json ~/.var/app/io.github.equicord.equibop/config/equibop/settings
+```
