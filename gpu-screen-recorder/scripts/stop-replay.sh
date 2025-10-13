@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pkill -SIGINT gpu-screen-recorder && sleep 0.2 && notify-send -t 1500 -u low -- "GPU Screen Recorder" "Replay stopped"
+killall -SIGINT gpu-screen-recorder && sleep 0.2 && notify-send -t 5000 -u low -- "Replay Stopped" "($0)"

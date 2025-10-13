@@ -42,6 +42,11 @@ chmod +x ~/scripts/stop-replay.sh
 chmod +x ~/scripts/save-replay.sh
 ```
 
+libnotify will need to be installed for notifications to work:
+```bash
+sudo apt install libnotify-bin -y
+```
+
 ## Equibop
 Equibop will not read settings from a symlink. The file(s) must be copied instead:
 ```bash
