@@ -121,6 +121,11 @@ edit() {
     cosmic-edit "$@" > /dev/null 2>&1
 }
 
+# Add alias for COSMIC Files and send logs to null
+files() {
+    cosmic-files "$@" > /dev/null 2>&1
+}
+
 # Make neofetch execute afer executing clear
 clear() {
     command clear
