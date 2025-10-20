@@ -35,11 +35,13 @@ rm -rf ~/.config/cosmic/com.system76.CosmicIdle
 ```
 
 ## GPU Screen Recorder
-Make the gpu-screen-recorder scripts executable:
+Make the gpu-screen-recorder scripts executable and enable service:
 ```bash
 chmod +x ~/scripts/start-replay.sh
 chmod +x ~/scripts/stop-replay.sh
 chmod +x ~/scripts/save-replay.sh
+systemctl --user daemon-reload
+systemctl --user enable start-replay.service
 ```
 
 libnotify will need to be installed for notifications to work:
