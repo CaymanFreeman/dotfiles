@@ -54,23 +54,3 @@ Equibop will not read settings from a symlink. The file(s) must be copied instea
 ```bash
 mkdir -p ~/.var/app/io.github.equicord.equibop/config/equibop/ && cp ~/dotfiles/equibop/.var/app/io.github.equicord.equibop/config/equibop/settings/settings.json ~/.var/app/io.github.equicord.equibop/config/equibop/settings
 ```
-
-## Quick Setup
-```bash
-git clone https://github.com/CaymanFreeman/dotfiles.git ~/dotfiles
-cd ~/dotfiles
-stow bash
-stow neofetch
-rm -rf ~/.config/cosmic/com.system76.CosmicPanel.Panel
-rm -rf ~/.config/cosmic/com.system76.CosmicPanel
-rm -rf ~/.config/cosmic/com.system76.CosmicTheme.Dark
-rm -rf ~/.config/cosmic/com.system76.CosmicTheme.Mode
-stow cosmic-appearance
-rm -rf ~/.config/cosmic/com.system76.CosmicIdle
-stow cosmic-idle
-mkdir -p ~/.var/app/io.github.equicord.equibop/config/equibop/ && cp ~/dotfiles/equibop/.var/app/io.github.equicord.equibop/config/equibop/settings/settings.json ~/.var/app/io.github.equicord.equibop/config/equibop/settings
-stow gpu-screen-recorder
-chmod +x ~/scripts/start-replay.sh
-chmod +x ~/scripts/stop-replay.sh
-chmod +x ~/scripts/save-replay.sh
-```
