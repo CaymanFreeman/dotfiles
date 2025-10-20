@@ -75,3 +75,15 @@ Config
 ```bash
 mkdir -p ~/.var/app/io.github.equicord.equibop/config/equibop/ && cp ~/dotfiles/equibop/.var/app/io.github.equicord.equibop/config/equibop/settings/settings.json ~/.var/app/io.github.equicord.equibop/config/equibop/settings
 ```
+
+## brave-browser
+Install
+```bash
+curl -fsS https://dl.brave.com/install.sh | sh
+```
+
+Config
+```bash
+chmod +x ~/dotfiles/brave-browser/scripts/config.sh
+~/dotfiles/brave-browser/scripts/config.sh
+```

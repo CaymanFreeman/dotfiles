@@ -1,0 +1,25 @@
+{
+  "bookmark_bar": {
+    "show_on_all_tabs": true,
+    "show_tab_groups": false
+  },
+  "brave": {
+    "stats": {
+      "enabled": false
+    },
+    "today": {
+      "should_show_brave_today_widget": false
+    },
+    "new_tab_page": {
+      "show_background_image": false,
+      "show_brave_news": false,
+      "show_clock": false,
+      "show_rewards": false,
+      "show_search_widget": false,
+      "show_stats": false,
+      "show_together": false
+    },
+    "location_bar_is_wide": true,
+    "show_side_panel_button": false,
+  }
+}
