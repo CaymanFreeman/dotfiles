@@ -1,12 +1,12 @@
 # dotfiles
 A collection of my [dotfiles](https://en.wiktionary.org/wiki/dotfile), settings, configs, etc. for various apps and programs.
 
-# Git & GNU Stow
+## Git & GNU Stow
 ```bash
 sudo apt install git stow -y
 ```
 
-# Clone Repository
+## Clone Repository
 ```bash
 git clone https://github.com/CaymanFreeman/dotfiles.git ~/dotfiles
 cd ~/dotfiles
